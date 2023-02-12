@@ -1,0 +1,22 @@
+.navbar{
+  padding: 0 10%;
+}
+
+.nav-links {
+  margin-left: 15%;
+}
+
+.nav-link-title {
+  font-size: large;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 20%;
+  text-align: end;
+}
+
+.active {
+  color: #5956e9 !important;
+}
