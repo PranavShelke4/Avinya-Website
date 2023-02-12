@@ -1,5 +1,5 @@
 import React from 'react'
-import './perfectlySection.css'
+// import './perfectlySection.css'
 import perfectly from '../../assets/perfectly.png'
 function PerfectlySection() {
     return (
