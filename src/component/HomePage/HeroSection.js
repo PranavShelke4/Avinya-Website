@@ -19,7 +19,7 @@ function HeroSection() {
           <button className="hero-btn-1">Join Now </button>
           <button className="hero-btn-2">Join Now </button>
         </Col>
-        <Col lg="4"><img className="hero-img" src={Heroimg} alt="Hero img" /></Col>
+        <Col lg="4" className="hero-img-section"><img className="hero-img" src={Heroimg} alt="Hero img" /></Col>
       </Row>
     </div>
   );
