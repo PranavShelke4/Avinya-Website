@@ -4,6 +4,7 @@ import HeroSection from "./component/HomePage/HeroSection";
 import AboutSection from "./component/HomePage/AboutSection";
 import FeaturesSection from './component/HomePage/FeaturesSection';
 import DemoSection from "./component/HomePage/DemoSection";
+import DownloadSection from "./component/HomePage/DownloadSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <FeaturesSection/>
       <DemoSection />
+      <DownloadSection />
     </diV>
 
   );
