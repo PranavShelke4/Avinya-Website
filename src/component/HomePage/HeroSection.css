@@ -1,6 +1,7 @@
 .heroSection {
   padding: 0% 10%;
-  height: 80vh;
+  height: 88vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,19 +13,25 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 54px;
-  line-height: 125px;
+  font-size: 3.2rem;
+  line-height: 7.5rem;
   text-align: left;
-  
 }
 
 .helight {
   color: #5956e9;
 }
 
+.hero-img-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-img{
-    width: 35rem;
-    height: auto;
+    width: 40rem !important;
+    max-height: 40rem;
+    margin-left: -1rem;
 }
 
 .hero-btn-1 {
