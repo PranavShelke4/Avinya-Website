@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './component/navbar';
+import HeroSection from './component/HomePage/HeroSection';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
 
       <diV>
         <Navbar />
+        <HeroSection/>
       </diV>
 
   );
