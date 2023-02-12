@@ -5,6 +5,7 @@ import AboutSection from "./component/HomePage/AboutSection";
 import FeaturesSection from './component/HomePage/FeaturesSection';
 import PerfectlySection from './component/HomePage/perfectlySection';
 import DemoSection from "./component/HomePage/DemoSection";
+import Footer from "./component/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <FeaturesSection/>
       <DemoSection />
       <PerfectlySection />
+      <Footer/>
     </diV>
 
   );
