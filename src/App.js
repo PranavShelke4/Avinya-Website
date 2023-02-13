@@ -5,6 +5,7 @@ import AboutSection from "./component/HomePage/AboutSection";
 import FeaturesSection from './component/HomePage/FeaturesSection';
 import PerfectlySection from './component/HomePage/perfectlySection';
 import DemoSection from "./component/HomePage/DemoSection";
+import Footer from "./component/footer";
 import DownloadSection from "./component/HomePage/DownloadSection";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <DemoSection />
       <DownloadSection />
       <PerfectlySection />
+      <Footer/>
     </diV>
 
   );
