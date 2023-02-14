@@ -4,6 +4,7 @@ import HeroSection from "../component/HomePage/HeroSection";
 import AboutSection from "../component/HomePage/AboutSection";
 import FeaturesSection from "../component/HomePage/FeaturesSection";
 import PerfectlySection from "../component/HomePage/perfectlySection";
+import SlideShow from "../component/HomePage/SlideShow";
 import DemoSection from "../component/HomePage/DemoSection";
 import Footer from "../component/footer";
 import DownloadSection from "../component/HomePage/DownloadSection";
@@ -15,6 +16,7 @@ function Home() {
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
+      <SlideShow />
       <DemoSection />
       <DownloadSection />
       <PerfectlySection />
