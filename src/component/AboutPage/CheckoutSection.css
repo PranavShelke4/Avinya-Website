@@ -1,0 +1,49 @@
+.CheckoutSection{
+    padding: 3% 10%;
+    text-align: center;
+    width: 100%;
+}
+
+.CheckoutSection-hedline{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 47px;
+/* identical to box height, or 151% */
+
+text-align: center;
+text-transform: uppercase;
+
+/* Black */
+
+color: #232233;
+}
+
+.CheckoutSection-peara{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+text-align: center;
+
+/* Gray ( Paragraph ) */
+
+color: #6C6C72;
+
+padding-top: 3%;
+padding-bottom: 2%;
+}
+
+
+.about-img{
+    width: auto;
+    height: 40rem;
+}
+
+.about-swiper{
+    width: 100%;
+}
