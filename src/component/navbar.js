@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar} from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 function navbar() {
   return (
@@ -17,21 +18,21 @@ function navbar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto nav-links">
-          <Nav.Link className="nav-link-title" href="#home">
+          <Link className="nav-link-title" to={"/"}>
             Home
-          </Nav.Link>
-          <Nav.Link className="nav-link-title" href="#About">
+          </Link>
+          <Link className="nav-link-title" to={"/about"}>
             About
-          </Nav.Link>
-          <Nav.Link className="nav-link-title" href="#Features">
+          </Link>
+          <Link className="nav-link-title" href="#Features">
             Features
-          </Nav.Link>
-          <Nav.Link className="nav-link-title" href="#Blog">
+          </Link>
+          <Link className="nav-link-title" href="#Blog">
             Blog
-          </Nav.Link>
-          <Nav.Link className="nav-link-title" href="#Contact-us">
+          </Link>
+          <Link className="nav-link-title" href="#Contact-us">
             Contacts
-          </Nav.Link>
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
