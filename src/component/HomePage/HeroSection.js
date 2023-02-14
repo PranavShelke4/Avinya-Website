@@ -17,7 +17,7 @@ function HeroSection() {
             </span>
           </h1>
           <button className="hero-btn-1">Join Now </button>
-          <button className="hero-btn-2">Join Now </button>
+          <button className="hero-btn-2">Book A Demo</button>
         </Col>
         <Col lg="4" className="hero-img-section"><img className="hero-img" src={Heroimg} alt="Hero img" /></Col>
       </Row>
