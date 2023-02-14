@@ -8,8 +8,7 @@
 .Demo-Bluebox {
   background-color: #120d69;
   color: white;
-  padding: 2% 11%;
-  padding-bottom: -5%;
+  padding: 2% 10% !important;
 }
 
 .demo-col-1 {
