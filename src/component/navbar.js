@@ -24,13 +24,13 @@ function navbar() {
           <Link className="nav-link-title" to={"/about"}>
             About
           </Link>
-          <Link className="nav-link-title" href="#Features">
+          <Link className="nav-link-title" to={"#"}>
             Features
           </Link>
           <Link className="nav-link-title" href="#Blog">
             Blog
           </Link>
-          <Link className="nav-link-title" href="#Contact-us">
+          <Link className="nav-link-title" to={"/Contact-us"}>
             Contacts
           </Link>
         </Nav>

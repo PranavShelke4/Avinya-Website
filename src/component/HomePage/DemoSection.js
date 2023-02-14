@@ -5,7 +5,7 @@ import demoimg from "../../assets/demo.svg";
 
 function DemoSection() {
   return (
-    <div className="Demo-section">
+    <div className="Demo-section" id="Demo-section">
       <h1 className="demo-section-hedline">Schedule a Free Demo</h1>
       <div className="Demo-Bluebox">
         <Row>
