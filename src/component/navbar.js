@@ -33,6 +33,9 @@ function navbar() {
           <Link className="nav-link-title" to={"/Contact-us"}>
             Contacts
           </Link>
+          <Link className="nav-link-title" to={"/partner-program"}>
+           Partner Program
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

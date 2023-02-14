@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Features from "./Pages/Features";
 import ContactUs from "./Pages/ContactUs";
+import PartnerProgram from "./Pages/PartnerProgram";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/features" element={<Features />} />
       <Route path="/Contact-us" element={<ContactUs />} />
+      <Route path="/partner-program" element={<PartnerProgram />} />
     </Routes>
   );
 }
