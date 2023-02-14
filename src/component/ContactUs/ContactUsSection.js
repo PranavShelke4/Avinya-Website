@@ -16,7 +16,7 @@ function ContactUsSection() {
         <Col className="ContactUsSection-col-1">
           <div className="contact-box">
             <div className="ContactUsSection-icon-box">
-              <img src={Communication} />
+              <img alt="img" src={Communication} />
             </div>
             <div>
             <h4 className="ContactUsSection-h5">24 x 7 Live Support</h4><br/>
@@ -26,7 +26,7 @@ function ContactUsSection() {
 
           <div className="contact-box">
             <div className="ContactUsSection-icon-box">
-              <img src={Vector} />
+              <img alt="img" src={Vector} />
             </div>
             <div>
             <h4 className="ContactUsSection-h5">Mail us</h4><br/>
@@ -36,7 +36,7 @@ function ContactUsSection() {
 
           <div className="contact-box">
             <div className="ContactUsSection-icon-box">
-              <img src={Home} />
+              <img alt="img" src={Home} />
             </div>
             <div>
             <h4 className="ContactUsSection-h5">Contact Us</h4><br/>
