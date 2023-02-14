@@ -1,0 +1,23 @@
+.SlideShow{
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.slideShow-title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 125px;
+/* identical to box height, or 347% */
+
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn{
+    display: none !important;
+}
